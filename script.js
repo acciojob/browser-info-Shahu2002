@@ -1,13 +1,5 @@
 //your JS code here. If required.
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Browser Information</title>
-</head>
-<body>
-    <div id="browser-info">Loading browser information...</div>
 
-    <script>
         // Get the user agent string
         var userAgent = navigator.userAgent;
 
@@ -40,6 +32,4 @@
         // Update the content of the browser-info div
         var browserInfoDiv = document.getElementById("browser-info");
         browserInfoDiv.textContent = "You are using " + browserName + " version " + version;
-    </script>
-</body>
-</html>
+
